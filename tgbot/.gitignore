@@ -1,8 +1,0 @@
-.evn
-.venv/
-venv/
-__pycache__/
-.pytest_cache/
-.pyc
-.zed
-.gitignore
