@@ -11,7 +11,7 @@ load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OPENROUTER_KEY = os.getenv("OPENROUTER_KEY")
-MODEL = os.getenv("MODEL","nex-agi/nex-n2.5-mini:free")
+MODEL = os.getenv("MODEL","apodex/apodex-1.1-mini:free")
 
 system_prompt = (
     "Ты — опытный IT-гик. Отвечай кратко, по делу, без воды. "
