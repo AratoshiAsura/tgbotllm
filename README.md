@@ -26,3 +26,15 @@ Telegram-бот с интеграцией LLM через OpenRouter API.
 - `BOT_TOKEN` — токен от @BotFather
 - `OPENROUTER_KEY` — ключ от openrouter.ai
 - `MODEL` — ID модели (например, `nex-agi/nex-n2.5-mini:free`)
+
+## Docker
+
+### Сборка
+```bash
+docker build -t tgbotllm .
+```
+
+### Запуск
+```bash
+docker run --env-file .env fastapi-llm
+```
